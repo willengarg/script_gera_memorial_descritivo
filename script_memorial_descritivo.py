@@ -392,7 +392,7 @@ class MemorialDescritivo:
             self.altura = ((self.tl_direito** 2) - (self.cateto_m** 2)) ** (1/2)
             return ((self.tl_testada  + self.tl_fundos) * self.altura) / 2
 
-        """ //////////////// Código em desenvolvimento ////////////////
+        """ //////////////// Código em desenvolvimento (Polígono irregular) ////////////////
         if (self.tl_testada != self.tl_fundos) and (self.tl_direito != self.tl_esquerdo):
             if self.tl_testada > self.tl_fundos:
                 self.cateto_m = (self.tl_testada - self.tl_fundos) / 2
